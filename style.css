@@ -1,0 +1,239 @@
+body{
+    
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 0;
+}
+.contener{
+    height: 4000px;
+}
+
+header{
+    
+    background-color: black;
+    height: 50px;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo span{
+    color: white;
+    font-size:  30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left:10px ;
+    
+
+}
+.logo a{
+    float: right;
+    padding-right:50px ;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.intro{
+    height:1000px;
+    margin: 0px;
+    background-image: url(https://assets-global.website-files.com/6060bea07a71c73512f838b3/6078b146341e2a7970d354f5_forblogshutterstock_300833339-p-2000.jpeg);
+    background-size: cover;
+    background-blend-mode:multiply ;
+    background-color: rgb(234, 138, 243);
+    display: inline-block;
+    width: 100%;
+    color: white;
+
+}
+.intro h1  {
+    font-size: 80px;
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.intro h4{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+.catalog{
+    background-color: rgb(236, 233, 228);
+    margin: 0px;
+    display: inline-block;
+    width: 250px;
+    height: max-content;
+    border: 2px solid silver; 
+    border-radius: 20px;
+    z-index: 1;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    
+}
+.catalog p{
+    
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0 ;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+  
+}
+.catalog h2{
+    font-size: 28px;
+}
+.catalog p:hover{
+    cursor: pointer;
+    color: slategrey;
+}
+
+.infa{
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    position: relative;
+   /* border: 2px solid black;*/
+    
+    
+}
+
+#pen{
+   width: 250px; 
+   
+}
+.block{
+position: absolute;
+left: 650px;
+top: 100px;
+border: 1px solid silver;
+}
+.block:hover{
+    border: 4px solid black;
+}
+.block h2{
+    margin: 0;
+    margin-left: 5px;
+}
+/*.block input{
+    color:white;
+    font-size: 20px;
+    background-color: green;
+    height: 40px;
+    width: 150px;
+    margin-left: 125px;
+}*/
+.block2{
+    position: absolute;
+    left: 650px;
+    top: 500px;
+    border: 1px solid silver;
+}
+.block2:hover{
+border: 4px solid black;
+
+}
+.block2 h2{
+    margin: 0;
+    margin-left: 5px;
+}
+/*.block2 input{
+    color:white;
+    font-size: 20px;
+    background-color: green;
+    height: 40px;
+    width: 150px;
+    margin-left: 125px;
+}*/
+#shar{
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.block3{
+    position: absolute;
+    left: 1000px;
+    top: 500px;
+    border: 1px solid silver;
+}
+.block3:hover{
+border: 4px solid black;
+
+}
+.block3 h4, h2{
+    margin: 0;
+    margin-bottom: 8px;
+    
+}
+#el{
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+input{
+    color:white;
+    font-size: 20px;
+    background-color: green;
+    height: 40px;
+    width: 150px;
+    margin-left: 125px;
+}
+.block4 h4{
+    margin: 0;
+    margin-bottom: 13px;
+}
+.block4{
+    position: absolute;
+    left: 1000px;
+    top: 100px; 
+    border: 1px solid silver;
+}
+.block4:hover{
+border: 4px solid black;
+
+}
+.block4 h2{
+    margin: 0;
+    margin-left: 5px;
+}
+#ger{
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+
+#fon1{
+   /* width: 750px;*/
+    height: 850px;
+    position:absolute;
+    top: 100px;
+    left: 20px;
+}
+.infa h1 {
+    font-size: 35px;
+    padding: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#button{
+    margin-top: 60px ;
+    color: blue;
+    font-size: 20px;
+}
+input:hover{
+    cursor: pointer;
+}
+
+
+.contener2{
+    display: flex;
+    
+}
+
